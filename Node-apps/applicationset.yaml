@@ -29,7 +29,7 @@ spec:
           helm:
             releaseName: nodeapp
             valueFiles:
-              - $values/environments/{{env}}/values.yaml
+              - $values/{{env}}/values.yaml
         - repoURL: https://github.com/sajilpb/gitops-config-repo.git
           targetRevision: main
           ref: values
