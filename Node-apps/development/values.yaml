@@ -31,7 +31,7 @@ redis:
 
 nginx:
   name: nginx
-  image: pbsajil/nginx:latest
+  image: nginx:latest
   port: 80
   servicePort: 80
   targetPort: 80
