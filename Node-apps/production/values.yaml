@@ -9,7 +9,7 @@ node:
   type: ClusterIP
   resources:
     limits:
-      cpu: 1000m
+      cpu: 500m
       memory: 1Gi
     requests:
       cpu: 500m
